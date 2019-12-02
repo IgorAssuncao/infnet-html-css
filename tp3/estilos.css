@@ -1,0 +1,121 @@
+body {
+  background-color: #f7f7f7;
+}
+
+#container {
+  width: 95%;
+  margin: 0 auto !important;
+}
+
+#titleKombi {
+  display: none;
+}
+
+header {
+  padding-top: 2px;
+  text-align: center;
+  background-color: #fff;
+}
+
+header img {
+  width: 150px;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0.7em 2em;
+}
+
+li a {
+  text-decoration: none;
+  color: #f7f7f7;
+  padding-inline: 50px;
+}
+
+nav {
+  text-align: center;
+  height: 40px;
+  color: black;
+  background-color: #532d24;
+}
+
+#titulo {
+  color: #4f2a21;
+  text-align: center;
+  font-size: 5em;
+  font-weight: inherit;
+}
+
+#titulo span {
+  font-weight: 700;
+}
+
+#fotoCafe {
+  border-radius: 10px;
+}
+
+h2 {
+  color: #532d24;
+  font-size: 3em;
+}
+
+section {
+  display: block;
+}
+
+.description {
+  width: 40%;
+  display: inline-block;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+#myKombi {
+  padding-left: 10%;
+}
+
+.titleDescripton {
+  margin-bottom: -30px;
+}
+
+.myDescription {
+  display: inline-block;
+}
+
+.imgDescription {
+  float: left;
+}
+
+.textDescription {
+  float: left;
+  width: 60%;
+}
+
+footer {
+  background-color: white;
+  text-align: right;
+  height: 50px;
+}
+
+footer p {
+  padding-right: 2%;
+}
+
+table {
+  width: 100%;
+}
+
+#sectionNossoCafe {
+  background-color: palevioletred;
+  text-align: center;
+  height: 30px;
+}
+
+#sectionNossoCafe h4 {
+  padding-top: 4px;
+}
+
+img#imagemPrincipal {
+  width: 100%;
+}

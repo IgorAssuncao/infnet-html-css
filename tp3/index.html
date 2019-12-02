@@ -1,31 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="br">
   <head>
-    <link rel="stylesheet" href="app.css" />
+    <title>TP1</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="normalize.css" />
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+    <title>Kombi Cafe</title>
   </head>
-
   <body>
-    <div id="q1"></div>
-    <div id="q2"></div>
-    <div id="q3"></div>
-    <div id="q4"></div>
-    <div id="q5"></div>
-    <div id="q6"></div>
+    <div id="container">
+      <header>
+        <h1 id="titleKombi">Kombi cafe</h1>
+        <img
+          id="logo"
+          src="images/logo_kombi_coffee.png"
+          alt="Logo kombi café"
+        />
+      </header>
 
-    <script>
-      var app = {};
-      app.getComponente = function(nome) {
-        if (!app[nome]) {
-          app[nome] = { $ctrl: {} };
-        }
-        return app[nome];
-      };
-    </script>
-    <script src="q1.js"></script>
-    <script src="q2.js"></script>
-    <script src="q3.js"></script>
-    <script src="q4.js"></script>
-    <script src="q5.js"></script>
-    <script src="q6.js"></script>
+      <nav>
+        <ul>
+          <li><a href="#"> HOME </a></li>
+          <li><a href="pages/local.html"> LOCAL </a></li>
+          <li><a href="pages/cardapio.html"> CARDÁPIO </a></li>
+          <li><a href="pages/eventos.html"> EVENTOS </a></li>
+          <li><a href="pages/contato.html"> CONTATO </a></li>
+        </ul>
+      </nav>
+
+      <img id="imagemPrincipal" src="images/banner.jpg" alt="Imagem café" />
+
+      <section>
+        <div class="description">
+          <div class="titleDescription">
+            <h4>Escolha seu café</h4>
+          </div>
+          <div class="bodyDescription">
+            <div class="imgDescription">
+              <img src="./images/cafe.png" alt="Cafe" title="Cafe" />
+            </div>
+            <div class="textDescription">
+              <p class="paragrafo">
+                Hoje em dia, café não é só aquele feito no coador de pano como
+                nossas avós faziam, um mundo novo se abre para nós em matéria de
+                tipos de grãos, procedência, tipos de torras e jeitos de
+                preparar a bebida, que é tão popular na mesa dos brasileiros.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="minhaKombi" class="description">
+          <div class="titleDescription">
+            <h2>Onde encontrar a loja</h2>
+          </div>
+          <div class="myDescription">
+            <div class="imgDescription">
+              <img src="./images/mapa.png" alt="Imagem de Mapa" />
+            </div>
+            <div class="textDescription">
+              <p>
+                O Kombi Cafe é móvel.
+                <a
+                  href="https://www.google.com.br/maps "
+                  title="Link do Google Maps "
+                  >Veja onde</a
+                >
+                você pode encontrar a loja.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
   </body>
+  <footer>
+    <hr />
+    Copyright
+  </footer>
 </html>
