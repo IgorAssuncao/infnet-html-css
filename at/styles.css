@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  color: #eeeeee;
+}
+
+.menu-area {
+  width: 100%;
+  background-color: #7e07de;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-area a {
+  text-transform: uppercase;
+}
+
+.menu-area ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu-area ul li {
+  position: relative;
+  text-align: center;
+}
+
+.loginMenu .dropdownLogin {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.loginMenu .dropdownLogin li {
+  display: none;
+}
+
+.loginMenu:hover .dropdownLogin li {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+li {
+  border-top: 0;
+  border-bottom: 0;
+  border: #6505b3 solid 1px;
+  padding: 5px;
+  background-color: #7e07de;
+}
+
+li:hover {
+  background-color: #5d05a6;
+}
+
+.search-input-box {
+  border: 0;
+  border-radius: 5px;
+  padding: 0px;
+  background-color: #7e07de;
+}
