@@ -9,11 +9,15 @@
 }
 
 .menu-area {
-  width: 100%;
-  height: 31px;
-  background-color: #7e07de;
   display: flex;
   justify-content: space-between;
+  left: 20px;
+  right: 20px;
+  margin: 0 5%;
+  --menu-area-width: 90%;
+  height: 30px;
+  --menu-area-height: 30px;
+  background-color: #7e07de;
 }
 
 .menu-area a {
@@ -35,7 +39,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  top: 30px;
+  top: calc(var(--menu-area-height) - 1px);
   right: -1px;
 }
 
