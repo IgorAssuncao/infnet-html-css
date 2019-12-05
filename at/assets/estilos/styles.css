@@ -6,15 +6,16 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.header,
-.menu-area {
+header,
+.menu-area,
+footer {
   margin: 0 5%;
   left: 20px;
   right: 20px;
   width: 90%;
 }
 
-.header {
+header {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -82,9 +83,63 @@
   background-color: #5d05a6;
 }
 
+.search-input img {
+  height: 12px;
+}
+
 .search-input-box {
   border: 0;
   border-radius: 5px;
   padding: 0px;
   background-color: #7e07de;
+}
+
+.main-container {
+  margin: 10% 10%;
+  left: 40px;
+  right: 40px;
+  width: 80%;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  bottom: 10px;
+}
+
+footer h4 {
+  color: #555555;
+}
+
+.mapa-site {
+  display: flex;
+  flex-direction: column;
+}
+
+.mapa-site a {
+  font-size: smaller;
+  color: #888888;
+}
+
+.lista-itens-site {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.redes-sociais {
+  display: flex;
+  flex-direction: column;
+}
+
+.lista-redes-sociais {
+  display: flex;
+  list-style: none;
+}
+
+.lista-redes-sociais img {
+  margin: 2px;
+  height: 25px;
+  width: 25px;
 }
