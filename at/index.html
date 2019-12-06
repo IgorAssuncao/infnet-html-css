@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="assets/estilos/styles.css" />
+    <link rel="stylesheet" href="assets/estilos/styles.css" title="Estilos comuns" />
     <title>Igor Assuncao</title>
   </head>
   <body>
@@ -11,6 +11,7 @@
       <img
         src="assets/images/background-header-img.png"
         class="background-header-img"
+        alt="Logotipo"
       />
     </header>
 
@@ -43,17 +44,39 @@
     </nav>
 
     <main class="main-container">
-      <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
-      </p>
+      <section class="noticias-section">
+        <h2 class="noticias-header">Noticias</h2>
+        <ul class="noticias-lista">
+          <li class="noticia">
+            <img src="https://vs.media/resize?compression=8&quality=65&type=webp&url=http%3A%2F%2Fimg.vs.media%2F1575582575150788c447d1ce9e0e1fb626467e019dc833afa2.jpeg&width=728"/>
+            <div class="noticia-conteudo">
+            <h3><a href="https://vs.com.br/artigo/lol-oferta-da-twitch-prime-da-tres-skins-misteriosas-permanentes">LOL: Oferta da Twitch Prime da tres skins misteriosas permanentes</a></h3>
+            <p>Desbloqueie os visuais aleatórios até 4 de janeiro</p>
+            </div>
+          </li>
+          <li class="noticia">
+            <img src="https://vs.media/resize?compression=8&quality=65&type=webp&url=http%3A%2F%2Fimg.vs.media%2F15755691414f5ec12bfd571a26622605cc4e15c5f19df197d0.jpg&width=728"/>
+            <div class="noticia-conteudo">
+            <h3><a href="https://vs.com.br/artigo/cinco-jogos-para-treinar-mira-em-games-de-tiro-e-refinar-a-precisao">Cinco jogos para treinar mira em games de tiro e refinar a precisao</a></h3>
+            <p>Chegou a hora de melhorar sta taxa de abates e headshots</p>
+            </div>
+          </li>
+          <li class="noticia">
+            <img src="https://vs.media/resize?compression=8&quality=65&type=webp&url=http%3A%2F%2Fimg.vs.media%2F1575579778cbe2bc5afa51abe920c2e72af83cf0d29f19db3f.jpg&width=728"/>
+            <div class="noticia-conteudo">
+            <h3><a href="https://vs.com.br/artigo/lol-estudio-riot-forge-sera-responsavel-por-expandir-universo-com-novos-games">LOL: Estudio Riot Forge sera responsavel por expandir universo da franquia com novos games</a></h3>
+            <p>Jogos ineditos de varios geteros e para diferentes plataformas</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="comentarios-section">
+          <h2 class="comentarios-header">Comentarios</h2>
+          <div class="comentario-conteudo">
+            
+          </div>
+      </section>
     </main>
 
     <footer>
@@ -90,7 +113,7 @@
           </li>
           <li class="rede-social">
             <a href="https://www.youtube.com"
-              ><img src="assets/images/youtube-logo.jpeg"
+              ><img class="youtube-logo" src="assets/images/youtube-logo.jpeg"
             /></a>
           </li>
         </ul>
