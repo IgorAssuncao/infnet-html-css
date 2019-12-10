@@ -1,0 +1,28 @@
+.jogos-header {
+  padding: 20px;
+}
+
+.jogo {
+  display: flex;
+  padding: 20px;
+  border-top: 1px solid #888888;
+}
+
+.jogo .jogo-imagem {
+  width: 40%;
+  padding-right: 20px;
+}
+
+.jogo .jogo-imagem img {
+  height: auto;
+  width: 200px;
+}
+
+.jogo .jogo-conteudo a {
+  color: #555555;
+  text-decoration: underline;
+}
+
+.jogo .jogo-conteudo p {
+  color: #888888;
+}

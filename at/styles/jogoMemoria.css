@@ -1,0 +1,33 @@
+.cardBack,
+.cardFront {
+  height: 100px;
+  width: 100px;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#tabuleiro {
+  display: flex;
+  margin: 20px 15%;
+  width: 70%;
+  flex-wrap: wrap;
+}
+
+#moves,
+#timer,
+#mensagem {
+  margin: 0 5%;
+}
+
+#buttonStart {
+  margin: 20px;
+}
+
+.divCard {
+  padding: 10px;
+  border: 2px solid #7e07de;
+}
