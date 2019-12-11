@@ -1,10 +1,4 @@
-* {
-  padding: 0;
-  border: 0;
-  margin: 0;
-  text-decoration: none;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
+@import url(styles/reset.css);
 
 header {
   display: flex;
@@ -17,7 +11,6 @@ header {
 .menu-area {
   display: flex;
   justify-content: space-between;
-  height: 30px;
   background-color: #7e07de;
 }
 
@@ -28,13 +21,15 @@ header {
 }
 
 .menu-area ul {
-  list-style: none;
   display: flex;
 }
 
 .menu-area ul li {
   position: relative;
   text-align: center;
+  color: #eeeeee;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .loginMenu .dropdownLogin {
