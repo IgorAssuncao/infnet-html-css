@@ -14,12 +14,6 @@ header {
   background-color: #7e07de;
 }
 
-.menu-area a {
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #eeeeee;
-}
-
 .menu-area ul {
   display: flex;
 }
@@ -32,12 +26,21 @@ header {
   font-weight: bold;
 }
 
+.menu-area a,
+.menu-area span {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #eeeeee;
+  padding: 0.5em 0.75em;
+  display: block;
+}
+
 .loginMenu .dropdownLogin {
   position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  top: 29px;
+  top: 45px;
   right: -1px;
 }
 
@@ -63,6 +66,12 @@ header {
   background-color: #5d05a6;
 }
 
+.search-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .search-input img {
   height: 12px;
 }
@@ -70,7 +79,7 @@ header {
 .search-input-box {
   border: 0;
   border-radius: 5px;
-  padding: 0px;
+  padding: 0.5em;
   background-color: #7e07de;
 }
 
@@ -96,7 +105,7 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   bottom: 10px;
-  padding-top: 20px;
+  padding: 1em;
   border-top: 1px solid #888888;
 }
 
@@ -268,4 +277,19 @@ button {
 .loggedin-container {
   display: flex;
   align-items: center;
+}
+
+@media (max-width: 700px) {
+  .menu-area {
+    flex-direction: column;
+  }
+
+  .menu-area .left-menu,
+  .menu-area .right-menu {
+    flex-direction: column;
+  }
+
+  .loginMenu .dropdownLogin {
+    top: 45px;
+  }
 }
