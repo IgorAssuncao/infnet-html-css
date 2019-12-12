@@ -72,7 +72,10 @@ header {
   border-radius: 5px;
   padding: 0px;
   background-color: #7e07de;
-  color: #aaaaaa;
+}
+
+.search-input-box::placeholder {
+  color: #eeeeee;
 }
 
 .main-container {
@@ -131,4 +134,138 @@ footer h4 {
   margin: 5px;
   height: 30px;
   width: auto;
+}
+
+.lista-header {
+  padding: 20px;
+}
+
+.item-lista {
+  display: flex;
+  padding: 20px;
+}
+
+.item-lista-border {
+  border-top: 1px solid #888888;
+}
+
+.item-lista-imagem {
+  width: 30%;
+  padding-right: 20px;
+}
+
+.item-lista-imagem img {
+  height: auto;
+  width: 100%;
+}
+
+.item-lista-conteudo {
+  width: 70%;
+}
+
+.item-lista-conteudo a {
+  color: #555555;
+  text-decoration: underline;
+}
+
+.item-lista-conteudo p {
+  color: #888888;
+}
+
+.item-lista-conteudo-alone {
+  width: 100%;
+}
+
+.comentarios-header {
+  padding: 20px;
+}
+
+.comentario {
+  display: flex;
+  padding: 20px;
+  border-top: 1px solid #888888;
+  background: linear-gradient(to right bottom, #ffffff, #eeeeee);
+}
+
+.comentario h4 {
+  color: #555555;
+  padding-right: 20px;
+}
+
+.comentario p {
+  color: #888888;
+  text-decoration: underline;
+}
+
+.sobre {
+  padding: 20px;
+}
+
+.sobre div {
+  padding: 10px;
+  border-bottom: 1px solid #888888;
+}
+
+.sobre h2 {
+  text-decoration: underline;
+  margin: 10px 0;
+}
+
+.sobre p {
+  color: #555555;
+}
+
+.login-section {
+  display: none;
+}
+
+.login-section h2 {
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+#login:target,
+#registro:target {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 25%;
+  width: 50%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #555555;
+  padding: 10px;
+}
+
+.dado-usuario {
+  display: flex;
+  align-content: flex-end;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+label {
+  width: 50px;
+}
+
+input {
+  border: 1px solid #7e07de;
+  margin: 0 5px;
+  padding: 5px 5px;
+}
+
+button {
+  margin-top: 10px;
+  background-color: #7e07de;
+  color: #dddddd;
+}
+
+.loggedin-container {
+  display: flex;
+  align-items: center;
 }
