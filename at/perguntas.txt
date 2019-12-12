@@ -1,0 +1,56 @@
+1) Quando é recomendando a criação de um site separado para mobile? Seria
+este o caso deste site da GK Fashion?
+R: A criação de um site exclusivo para mobile, é quando a maioria das
+	funcionalidades já prontas no site não podem ser adaptadas para o mobile.
+	Fazendo-se assim a necessidade de um site exclusivo por questões de
+	manutenabilidade.
+
+
+2) No caso de um CSS específico para print, como ele deve ser inserido?
+R: Usando o atributo media="print" na importação de um arquivo css,
+	ou utilizando uma media type "@media print {}".
+
+
+3) O elemento audio permite como elemento‐filho o elemento source. Quais são
+os atributos que o source permite e qual conteúdo eles suportam? Quais os
+outros atributos do elemento audio e quando devem ser utilizados?
+R: Source seria a extensão daquele audio, seja MP3, OGG ou WAV. Alguns outros
+	atributos são os de:
+	- autoplay: para o audio inciar junto com a pagina.
+	- buffered: intervalo entre os audios.
+	- controls: controles.
+	- loop: audio em loop infinito.
+	- muted: audio silenciado.
+	- played: serve para indicar o tempo de reprodução.
+	- preload: descrições do audio antes de inciar.
+	- src: caminho do audio.
+
+4) O elemento video permite como elemento‐filho o elemento source. Quais são
+os atributos que o source permite e qual conteúdo eles suportam? Quais os
+outros atributos do elemento video e quando devem ser utilizados?
+R: Source seria a extensão daquele video, seja MP4, OGG ou WebM. Alguns outros
+	atributos são os de:
+	- autoplay: para o video inciar junto com a pagina.
+	- buffered: intervalo entre os audios.
+	- controls: controles.
+	- loop: video em loop infinito.
+	- muted: video silenciado.
+	- played: serve para indicar o tempo de reprodução.
+	- preload: descrições do video antes de inciar.
+	- src: caminho do video.
+
+5) No caso do canvas, HTML 5 nunca, em momento algum, fez qualquer
+animação. Isso porquê o HTML 5 é uma simples linguagem de marcação. Dessa
+forma, o que é necessário para criar animações com HTML5? O que são APIs do
+HTML5?
+R: Animações são feitas com tecnologias como CSS3 ou HTML5.
+	APIs do HTML5 são funcionalidades que não estavam presentes naturalmente
+	no HTML4 e que estão a disposição do desenvolvedor para uso. Um exemplo
+	é a Storage API, que serve para utilizar armazenamento do navegador.
+
+
+6) Como o CSS3 pode ser aplicado na aparência da multimídia HTML5.
+Demonstre com um exemplo.
+R: Pode-se estilizar as classes dessas mídias, deixando-as mais translúcidas ou
+	arredondando suas bordas por exemplo, no último caso, utilizando
+	style="border-radius: 5px;".
