@@ -3,7 +3,7 @@ este o caso deste site da GK Fashion?
 R: A criação de um site exclusivo para mobile, é quando a maioria das
 	funcionalidades já prontas no site não podem ser adaptadas para o mobile.
 	Fazendo-se assim a necessidade de um site exclusivo por questões de
-	manutenabilidade.
+	manutenibilidade.
 
 
 2) No caso de um CSS específico para print, como ele deve ser inserido?

@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles.css" title="Estilos comuns" />
     <title>Contato</title>
   </head>
@@ -18,11 +19,11 @@
 
     <nav class="menu-area">
       <ul class="left-menu">
-        <li class="item-menu"><a href="../index.html">Inicio</a></li>
-        <li class="item-menu"><a href="noticias.html">Noticias</a></li>
-        <li class="item-menu"><a href="jogos.html">Jogos</a></li>
-        <li class="item-menu"><a href="sobre.html">Sobre</a></li>
-        <li class="item-menu"><a href="#">Contato</a></li>
+        <li class="item-menu"><a href="../index.html" title="item-menu-inicio">Inicio</a></li>
+        <li class="item-menu"><a href="noticias.html" title="item-menu-noticias">Noticias</a></li>
+        <li class="item-menu"><a href="jogos.html" title="item-menu-jogos">Jogos</a></li>
+        <li class="item-menu"><a href="sobre.html" title="item-menu-sobre">Sobre</a></li>
+        <li class="item-menu"><a href="#" title="item-menu-contato">Contato</a></li>
       </ul>
       <ul class="right-menu">
         <li class="item-menu search-input">
@@ -33,10 +34,10 @@
           <span class="loginSpan">Login</span>
           <ul class="dropdownLogin">
             <li class="item-menu login">
-              <a href="login.html#login">Entrar</a>
+              <a href="login.html#login" title="item-menu-entrar">Entrar</a>
             </li>
             <li class="item-menu cadastro">
-              <a href="login.html#registro">Cadastro</a>
+              <a href="login.html#registro" title="item-menu-cadastro">Cadastro</a>
             </li>
           </ul>
         </li>
@@ -44,45 +45,50 @@
     </nav>
 
     <main class="main-container contato-container" id="main-container">
-      <form action="#" method="post">
-        <div class="contato">
-          <label for="nome">Nome: </label>
-          <input type="text" id="nome" placeholder="Nome" />
-        </div>
+      <section class="contato-section">
+        <h2>Contato</h2>
+        <form action="#" method="post">
+          <div class="contato">
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" placeholder="Nome" />
+          </div>
 
-        <div class="contato">
-          <label for="email">Email: </label>
-          <input type="text" id="email" placeholder="Email" />
-        </div>
+          <div class="contato">
+            <label for="email">Email: </label>
+            <input type="text" id="email" placeholder="Email" />
+          </div>
 
-        <div class="contato">
-          <label for="jogo">Jogo</label>
-          <select id="jogo">
-            <option value="jogo-memoria">Jogo da Memoria</option>
-            <option value="jogo-billiards" disabled>Billiards</option>
-            <option value="jogo-bubble-shooter" disabled>Bubble Shooter</option>
-          </select>
-        </div>
+          <div class="contato">
+            <label for="jogo">Jogo: </label>
+            <select id="jogo">
+              <option value="jogo-memoria">Jogo da Memoria</option>
+              <option value="jogo-billiards" disabled>Billiards</option>
+              <option value="jogo-bubble-shooter" disabled>Bubble Shooter</option>
+            </select>
+          </div>
 
-        <div class="contato">
-          <label for="assunto"></label>
-          <textarea id="assunto"></textarea>
-        </div>
-      </form>
+          <div class="contato">
+            <label for="assunto">Assunto: </label>
+            <textarea id="assunto" cols="50" rows="7"></textarea>
+          </div>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
     </main>
 
     <footer>
       <div class="mapa-site">
         <h4>Mapa do site</h4>
         <ul class="lista-itens-site">
-          <li class="item-site"><a href="../index.html">Inicio</a></li>
-          <li class="item-site"><a href="noticias.html">Noticias</a></li>
-          <li class="item-site"><a href="jogos.html">Jogos</a></li>
-          <li class="item-site"><a href="sobre.html">Sobre</a></li>
-          <li class="item-site"><a href="#">Contato</a></li>
-          <li class="item-site"><a href="login.html#login">Entrar</a></li>
+          <li class="item-site"><a href="../index.html" title="item-site-inicio">Inicio</a></li>
+          <li class="item-site"><a href="noticias.html" title="item-site-noticias">Noticias</a></li>
+          <li class="item-site"><a href="jogos.html" title="item-site-jogos">Jogos</a></li>
+          <li class="item-site"><a href="sobre.html" title="item-site-sobre">Sobre</a></li>
+          <li class="item-site"><a href="#" title="item-site-contato">Contato</a></li>
+          <li class="item-site"><a href="login.html#login" title="item-site-entrar">Entrar</a></li>
           <li class="item-site">
-            <a href="login.html#registro">Cadastro</a>
+            <a href="login.html#registro" title="item-site-cadastro">Cadastro</a>
           </li>
         </ul>
       </div>
@@ -90,24 +96,24 @@
         <h4>Redes sociais</h4>
         <ul class="lista-redes-sociais">
           <li class="rede-social">
-            <a href="https://www.facebook.com"
+            <a href="https://www.facebook.com" title="item-rede-social-facebook"
               ><img src="../assets/images/facebook-logo.png" alt="facebook-logo"
             /></a>
           </li>
           <li class="rede-social">
-            <a href="https://www.twitter.com"
+            <a href="https://www.twitter.com" title="item-rede-social-twitter"
               ><img src="../assets/images/twitter-logo.png" alt="twitter-logo"
             /></a>
           </li>
           <li class="rede-social">
-            <a href="https://www.instagram.com"
+            <a href="https://www.instagram.com" title="item-rede-social-instagram"
               ><img
                 src="../assets/images/instagram-logo.jpeg"
                 alt="instagram-logo"
             /></a>
           </li>
           <li class="rede-social">
-            <a href="https://www.youtube.com"
+            <a href="https://www.youtube.com" title="item-rede-social-youtube"
               ><img src="../assets/images/youtube-logo.jpeg" alt="youtube-logo"
             /></a>
           </li>

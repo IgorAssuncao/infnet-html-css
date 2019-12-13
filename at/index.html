@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css" title="Estilos comuns" />
     <title>Pagina principal</title>
   </head>
@@ -18,12 +19,12 @@
 
     <nav class="menu-area">
       <ul class="left-menu">
-        <li class="item-menu"><a href="#">Inicio</a></li>
-        <li class="item-menu"><a href="pages/noticias.html">Noticias</a></li>
-        <li class="item-menu"><a href="pages/jogos.html">Jogos</a></li>
-        <li class="item-menu"><a href="pages/sobre.html">Sobre</a></li>
+        <li class="item-menu"><a href="#" title="item-menu-inicio">Inicio</a></li>
+        <li class="item-menu"><a href="pages/noticias.html" title="item-menu-noticias">Noticias</a></li>
+        <li class="item-menu"><a href="pages/jogos.html" title="item-menu-jogos">Jogos</a></li>
+        <li class="item-menu"><a href="pages/sobre.html" title="item-menu-sobre">Sobre</a></li>
         <li class="item-menu">
-          <a href="pages/contato.html">Contato</a>
+          <a href="pages/contato.html" title="item-menu-contato">Contato</a>
         </li>
       </ul>
       <ul class="right-menu">
@@ -35,10 +36,10 @@
           <span class="loginSpan">Login</span>
           <ul class="dropdownLogin">
             <li class="item-menu login">
-              <a href="pages/login.html#login">Entrar</a>
+              <a href="pages/login.html#login" title="item-menu-entrar">Entrar</a>
             </li>
             <li class="item-menu cadastro">
-              <a href="pages/login.html#registro">Cadastro</a>
+              <a href="pages/login.html#registro" title="item-menu-cadastro">Cadastro</a>
             </li>
           </ul>
         </li>
@@ -50,14 +51,16 @@
         <ul class="lista-principal">
           <li class="item-lista">
             <div class="item-lista-imagem">
-              <img
-                src="assets/images/jogo-memoria-screenshot.png"
-                alt="jogo-memoria-screenshot"
-              />
+              <a href="pages/jogoMemoria.html" title="item-destaque-jogoMemoria">
+                <img
+                  src="assets/images/jogo-memoria-screenshot.png"
+                  alt="jogo-memoria-screenshot"
+                />
+              </a>
             </div>
             <div class="item-lista-conteudo">
               <h3>
-                <a href="jogoMemoria.html">Jogo da Memoria</a>
+                <a href="pages/jogoMemoria.html" title="item-destaque-jogoMemoria">Jogo da Memoria</a>
               </h3>
               <p>
                 Um excitante jogo da memoria com 16 cartas, reuna os amigos e
@@ -67,7 +70,7 @@
           </li>
           <li class="item-lista">
             <div class="item-lista-conteudo item-lista-conteudo-alone">
-              <a href="pages/noticias.html"><h3>Noticias</h3></a>
+              <a href="pages/noticias.html" title="item-destaque-noticias"><h3>Noticias</h3></a>
               <p>
                 Confira nossa pagina de noticias e fique antenado com o que
                 acontece no mundo dos games
@@ -76,7 +79,7 @@
           </li>
           <li class="item-lista">
             <div class="item-lista-conteudo item-lista-conteudo-alone">
-              <a href="pages/contato.html"><h3>Contato</h3></a>
+              <a href="pages/contato.html" title="item-destaque-contato"><h3>Contato</h3></a>
               <p>Entre em contato conosco, estaremos felizes em te responder</p>
             </div>
           </li>
@@ -96,15 +99,13 @@
           <li class="item-lista comentario">
             <h4>Usuario 2</h4>
             <p>
-              Que legal seu jogo da memoria, tive uma experiencia otima jogando
-              com meu irmao mais novo.
+              Achei estes jogos melhores que Free Fire.
             </p>
           </li>
           <li class="item-lista comentario">
             <h4>Usuario 3</h4>
             <p>
-              Que legal seu jogo da memoria, tive uma experiencia otima jogando
-              com meu irmao mais novo.
+              Achei interessante o jogo da memoria e o Bubble Shooter, porem senti falta de funcao multiplayer.
             </p>
           </li>
         </ul>
@@ -115,16 +116,16 @@
       <div class="mapa-site">
         <h4>Mapa do site</h4>
         <ul class="lista-itens-site">
-          <li class="item-site"><a href="#">Inicio</a></li>
-          <li class="item-site"><a href="pages/noticias.html">Noticias</a></li>
-          <li class="item-site"><a href="pages/jogos.html">Jogos</a></li>
-          <li class="item-site"><a href="pages/sobre.html">Sobre</a></li>
+          <li class="item-site"><a href="#" title="item-site-inicio">Inicio</a></li>
+          <li class="item-site"><a href="pages/noticias.html" title="item-site-noticias">Noticias</a></li>
+          <li class="item-site"><a href="pages/jogos.html" title="item-site-jogos">Jogos</a></li>
+          <li class="item-site"><a href="pages/sobre.html" title="item-site-sobre">Sobre</a></li>
           <li class="item-site">
-            <a href="pages/contato.html">Contato</a>
+            <a href="pages/contato.html" title="item-site-contato">Contato</a>
           </li>
-          <li class="item-site"><a href="#" target="modalLogin">Entrar</a></li>
+          <li class="item-site"><a href="pages/login.html#login" title="item-site-entrar">Entrar</a></li>
           <li class="item-site">
-            <a href="#divRegistro" target="modalRegistro">Cadastro</a>
+            <a href="pages/login.html#registro" title="item-site-cadastro">Cadastro</a>
           </li>
         </ul>
       </div>
@@ -132,22 +133,22 @@
         <h4>Redes sociais</h4>
         <ul class="lista-redes-sociais">
           <li class="rede-social">
-            <a href="https://www.facebook.com"
+            <a href="https://www.facebook.com" title="item-rede-social-facebook"
               ><img src="assets/images/facebook-logo.png" alt="facebook-logo"
             /></a>
           </li>
           <li class="rede-social">
-            <a href="https://www.twitter.com"
+            <a href="https://www.twitter.com" title="item-rede-social-twitter"
               ><img src="assets/images/twitter-logo.png" alt="twitter-logo"
             /></a>
           </li>
           <li class="rede-social">
-            <a href="https://www.instagram.com"
+            <a href="https://www.instagram.com" title="item-rede-social-instagram"
               ><img src="assets/images/instagram-logo.jpeg" alt="instagram-logo"
             /></a>
           </li>
           <li class="rede-social">
-            <a href="https://www.youtube.com"
+            <a href="https://www.youtube.com" title="item-rede-social-youtube"
               ><img src="assets/images/youtube-logo.jpeg" alt="youtube-logo"
             /></a>
           </li>
